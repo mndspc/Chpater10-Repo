@@ -9,7 +9,7 @@ namespace AdvanceConcepts
         public int EmpCode { get; set; }
         public string EmpName { get; set; }
 
-        [NonSerialized]
+        //[NonSerialized]
         private string EmpEmail;
         public string  Email { get { return EmpEmail; }set { EmpEmail = value; } }
     }

@@ -33,11 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AdvanceConcepts.SerilizeBuiltInTypes</StartupObject>
+    <StartupObject>AdvanceConcepts.ThreadDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,16 +55,23 @@
     <Compile Include="AnonyMethod.cs" />
     <Compile Include="AnonymType.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="ExtensionMethods.cs" />
     <Compile Include="FuncDel.cs" />
     <Compile Include="MultiCastDelegate.cs" />
+    <Compile Include="NullableDemo.cs" />
     <Compile Include="PredicateDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerDeserWithSoapFormatter.cs" />
+    <Compile Include="SerDesJson.cs" />
     <Compile Include="SeriAndDeser.cs" />
     <Compile Include="SerilizeBuiltInTypes.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="ThreadDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

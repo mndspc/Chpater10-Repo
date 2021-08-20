@@ -1,6 +1,4 @@
 ﻿using System;
-
-
 namespace AdvanceConcepts
 {
     // A predicate delegate is an in-built generic type delegate.

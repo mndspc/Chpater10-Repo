@@ -5,3 +5,6 @@ D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConce
 D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConcepts\obj\Debug\AdvanceConcepts.csproj.CoreCompileInputs.cache
 D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConcepts\obj\Debug\AdvanceConcepts.exe
 D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConcepts\obj\Debug\AdvanceConcepts.pdb
+D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConcepts\bin\Debug\Newtonsoft.Json.dll
+D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConcepts\bin\Debug\Newtonsoft.Json.xml
+D:\Corporate\Vinsys\JK Tech\C#\Demos\Chpater10-Repo\AdvanceConcepts\AdvanceConcepts\obj\Debug\AdvanceConcepts.csproj.CopyComplete

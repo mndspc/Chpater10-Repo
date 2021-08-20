@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace AdvanceConcepts
 {
     //  This program demo. how to create multi-cast delegate
@@ -19,21 +18,17 @@ namespace AdvanceConcepts
         static void Main()
         {
             MultiCastDelegate mulCast = new MultiCastDelegate();
-
             //2.To initial. Delegate
             RectDel rectDel = new RectDel(mulCast.Area);           
             rectDel += mulCast.Perimeter;
-
             Console.WriteLine("After adding/attaching ref. perimeter");
             //3.To Invoke Delegate
             rectDel(6.5, 2.5);
             rectDel.Invoke(6.5, 2.5);
-
             Console.WriteLine("After removing/dettaching ref of perimeter fun ");
             //  To remove ref.
             rectDel -= mulCast.Perimeter;
             rectDel(6.5, 2.5);
-
             Console.ReadLine();
         }
     }

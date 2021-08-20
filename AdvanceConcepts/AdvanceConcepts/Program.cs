@@ -1,6 +1,4 @@
 ﻿using System;
-
-
 namespace AdvanceConcepts
 {
     //A delegate is an object which refers to a method or you can say it is a reference type variable that can hold a reference to the methods.
@@ -13,7 +11,6 @@ namespace AdvanceConcepts
         {
             Console.WriteLine("The sum is:{0}",firstNum+secondNum);
         }
-
         public void Sub(int firstNum,int secondNum)
         {
             Console.WriteLine("The result is:{0}",firstNum-secondNum);
@@ -21,7 +18,6 @@ namespace AdvanceConcepts
         static void Main(string[] args)
         {
             Program program = new Program();
-
             //  2.To Initial. Delegate
             DelMath myDel = new DelMath(program.Add);
             //  3.To Invoke Delegate
